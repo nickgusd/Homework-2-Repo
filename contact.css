@@ -1,0 +1,71 @@
+body {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 24px;
+    color: black;
+   
+
+}
+
+
+form {
+    position: relative;
+    text-align: left;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    border: 1px solid lightgray;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+@media (max-width: 640px) {
+
+body {
+    background: cyan;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 18px;
+
+}
+
+form {
+    padding: 0px;
+}
+}
+
+@media (min-width: 768px) {
+
+    body {
+        background: lightgreen;
+        font-size: 14px;
+    }
+    
+    h1 {
+        font-size: 18px;
+    }
+
+    form {
+        padding: 20px;
+    }
+    }
+    
+
+    @media (min-width: 980px) {
+        body {
+            background: lightpink;
+        }
+
+        form {
+            margin-right: 300px;
+        }
+    }
+
