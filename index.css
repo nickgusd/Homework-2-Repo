@@ -29,7 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    
 }
 ol, ul {
 	list-style: none;
@@ -47,6 +48,23 @@ table {
 	border-spacing: 0;
 }
 
+
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+	background-color: #355070 !important;
+
+}
+
+.navbar-brand {
+	color: white !important;
+}
+
+.nav-link {
+	color: white !important;
+}
+
+
+
+
 .container {
     border: 1px, solid black;
     margin-top: 10px;
@@ -57,6 +75,7 @@ table {
 .row1 {
     border: 1px solid black;
     padding: 10px 0px 10px 0px;
+    background-color: #70A288;
 }
 
 
@@ -69,6 +88,7 @@ table {
 .row2 {
     padding: 10px 0px 10px 0px;
     border: 1px solid black;
+    
 }
 
 
@@ -95,13 +115,14 @@ img {
 .row3 {
     border: 1px solid black;
     padding: 10px 0px 10px 0px;
+    
 }
 
 
 @media (max-width: 640px) {
 
     body {
-        background: lightskyblue;
+        
         font-size: 14px;
     }
 
@@ -120,17 +141,8 @@ img {
 
 
 
-
-
-
-
-
 @media (min-width: 768px) {
 
-    body {
-        background: lightgreen;
-     
-    }
 
     img {
         position: relative;
@@ -141,15 +153,11 @@ img {
 
 @media (min-width: 980px) {
 
-    body {
-        background: lightpink;
-     
-    }
-
 
     .container {
         width: 60%;
         margin-right: 700px;
+        
        
     }
 }

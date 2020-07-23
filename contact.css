@@ -1,8 +1,29 @@
+
 body {
     background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
+    background-color: #afb9c5ba;
 }
+
+
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+	background-color: #355070 !important;
+
+}
+
+.navbar-brand {
+	color: white !important;
+}
+
+.nav-link {
+	color: white !important;
+}
+
+
+
+
+
 
 h1 {
     font-size: 20px;
@@ -19,6 +40,7 @@ form {
     margin-right: 50px;
     margin-top: 30px;
     border: 1px solid lightgray;
+    background-color: #70A288;
 }
 
 .message {
@@ -28,7 +50,6 @@ form {
 @media (max-width: 640px) {
 
 body {
-    background: lightskyblue;
     font-size: 14px;
 }
 
@@ -38,14 +59,13 @@ h1 {
 }
 
 form {
-    padding: 0px;
+    padding: 20px;
 }
 }
 
 @media (min-width: 768px) {
 
     body {
-        background: lightgreen;
         font-size: 14px;
     }
     
@@ -60,9 +80,7 @@ form {
     
 
     @media (min-width: 980px) {
-        body {
-            background: lightpink;
-        }
+        
 
         form {
             margin-right: 300px;
