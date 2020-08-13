@@ -51,7 +51,13 @@ body {
 	background-color:#afb9c5ba;
 }
 
-
+a {
+	display: block;
+	margin: 0 auto;
+	color: white;
+	position: relative;
+	bottom: 10px;
+}
 
 
 .navbar, .navbar-expand-lg, .navbar-light, .bg-light {
