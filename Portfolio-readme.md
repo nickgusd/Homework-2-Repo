@@ -32,3 +32,5 @@ The reponsiveness portfolio was created using HTML, CSS, and Bootstrap. The port
 ## Note
 
 The page contains a navbar which will allow the user to navigate to each of the pages.
+
+The Weather Dashboard link is a deadlink, as that assignment is still in progress. 
